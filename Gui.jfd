@@ -1,0 +1,530 @@
+JFDML JFormDesigner: "5.1.0.1.63" Java: "1.6.0_31" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {space :p:19:p, comp toggleButton1:::p:215:p, space ::40:x}, comp scrollPane1::l::274:x}"
+			"$verticalGroup": "par l {seq l {comp scrollPane1::::251:x, space :::p, comp toggleButton1:::p:47:p}}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq {par l {seq {comp MiscValue:::p:47:p, space :5:5:p, comp label1:::p:179:p}, seq {comp AmmoValue:::p:47:p, space :5:5:p, comp label2:::p:179:p}, seq {comp ArrowsValue:::p:47:p, space :5:5:p, comp label3:::p:179:p}, seq {comp BoltsValue:::p:47:p, space :5:5:p, comp label4:::p:179:p}, seq {comp ConstructionValue:::p:47:p, space :5:5:p, comp label5:::p:179:p}, seq l {comp CostumesValue:::p:47:p, space :5:5:p, comp label13:::p:179:p}, seq l {comp CraftingValue:::p:47:p, space :5:5:p, comp label14:::p:179:p}, seq l {comp FamilarsValue:::p:47:p, space :5:5:p, comp label15:::p:179:p}, seq l {comp FarmingValue:::p:47:p, space :5:5:p, comp label16:::p:179:p}, seq l {comp FoodValue:::p:47:p, space :5:5:p, comp label12:::p:179:p}, seq l {comp HerbloreValue:::p:47:p, space :5:5:p, comp label22:::p:179:p}, seq l {comp HuntingValue:::p:47:p, space :5:5:p, comp label21:::p:179:p}, seq l {comp JewelleryValue:::p:47:p, space :5:5:p, comp label20:::p:179:p}, seq l {comp MageValue:::p:47:p, space :5:5:p, comp label19:::p:179:p}, seq l {comp MeleeArmorValue:::p:47:p, space :5:5:p, comp label18:::p:179:p}, seq l {comp MeleeWeaponsValue:::p:47:p, space :5:5:p, comp label17:::p:179:p}, seq l {comp MiningValue:::p:47:p, space :5:5:p, comp label24:::p:179:p}, seq l {comp PotionsValue:::p:47:p, space :5:5:p, comp label25:::p:179:p}, seq l {comp PrayerValue:::p:47:p, space :5:5:p, comp label26:::p:179:p}, seq l {comp RangeArmorValue:::p:47:p, space :5:5:p, comp label27:::p:179:p}, seq l {comp RangeWeaponsValue:::p:47:p, space :5:5:p, comp label23:::p:179:p}, seq l {comp RunecraftingValue:::p:47:p, space :5:5:p, comp label28:::p:179:p}, seq l {comp SeedsValue:::p:47:p, space :5:5:p, comp label29:::p:179:p}, seq l {comp RunesValue:::p:47:p, space :5:5:p, comp label30:::p:179:p}, seq l {comp SummoningScrollsValue:::p:47:p, space :5:5:p, comp label31:::p:179:p}, seq l {comp ToolsValue:::p:47:p, space :5:5:p, comp label33:::p:179:p}, seq l {comp WoodcuttingValue:::p:47:p, space :5:5:p, comp label32:::p:179:p}}, space :p:24:p}}"
+					"$verticalGroup": "par l {seq {par l {comp MiscValue:::p::p, seq {space :4:4:p, comp label1:::p::p}}, space :5:5:p, par l {comp AmmoValue:::p::p, seq {space :4:4:p, comp label2:::p::p}}, space :5:5:p, par l {comp ArrowsValue:::p::p, seq {space :4:4:p, comp label3:::p::p}}, space :5:5:p, par l {comp BoltsValue:::p::p, seq {space :4:4:p, comp label4:::p::p}}, space :5:5:p, par l {comp ConstructionValue:::p::p, seq {space :4:4:p, comp label5:::p::p}}, space :::x, par l {comp CostumesValue:::p::p, seq l {space :4:4:p, comp label13:::p::p}}, space :5:5:p, par l {comp CraftingValue:::p::p, seq l {space :4:4:p, comp label14:::p::p}}, space :5:5:p, par l {comp FamilarsValue:::p::p, seq l {space :4:4:p, comp label15:::p::p}}, space :5:5:p, par l {comp FarmingValue:::p::p, seq l {space :4:4:p, comp label16:::p::p}}, space :5:5:p, par l {comp FoodValue:::p::p, seq l {space :4:4:p, comp label12:::p::p}}, space :5:5:p, par l {comp HerbloreValue:::p::p, seq l {space :4:4:p, comp label22:::p::p}}, space :5:5:p, par l {comp HuntingValue:::p::p, seq l {space :4:4:p, comp label21:::p::p}}, space :5:5:p, par l {comp JewelleryValue:::p::p, seq l {space :4:4:p, comp label20:::p::p}}, space :5:5:p, par l {comp MageValue:::p::p, seq l {space :4:4:p, comp label19:::p::p}}, space :5:5:p, par l {comp MeleeArmorValue:::p::p, seq l {space :4:4:p, comp label18:::p::p}}, space :5:5:p, par l {comp MeleeWeaponsValue:::p::p, seq l {space :4:4:p, comp label17:::p::p}}, space :5:5:p, par l {comp MiningValue:::p::p, seq l {space :4:4:p, comp label24:::p::p}}, space :5:5:p, par l {comp PotionsValue:::p::p, seq l {space :4:4:p, comp label25:::p::p}}, space :5:5:p, par l {comp PrayerValue:::p::p, seq l {space :4:4:p, comp label26:::p::p}}, space :5:5:p, par l {comp RangeArmorValue:::p::p, seq l {space :4:4:p, comp label27:::p::p}}, space :5:5:p, par l {comp RangeWeaponsValue:::p::p, seq l {space :4:4:p, comp label23:::p::p}}, space :5:5:p, par l {comp RunecraftingValue:::p::p, seq l {space :4:4:p, comp label28:::p::p}}, space :5:5:p, par l {comp SeedsValue:::p::p, seq l {space :4:4:p, comp label29:::p::p}}, space :5:5:p, par l {comp RunesValue:::p::p, seq l {space :4:4:p, comp label30:::p::p}}, space :5:5:p, par l {comp SummoningScrollsValue:::p::p, seq l {space :4:4:p, comp label31:::p::p}}, space :5:5:p, par l {comp ToolsValue:::p::p, seq l {space :4:4:p, comp label33:::p::p}}, space :5:5:p, par l {comp WoodcuttingValue:::p::p, seq l {space :4:4:p, comp label32:::p::p}}, space :::p}}"
+				} ) {
+					name: "panel1"
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "MiscValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "Misc/Uncatagorised"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "AmmoValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "Ammo"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "ArrowsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "Arrows"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "BoltsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Bolts"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "ConstructionValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "Construction"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "CostumesValue"
+						"model": &DefaultComboBoxModel0 new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "Costumes"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "CraftingValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "Crafting"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "FamilarsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "Familiars"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "FarmingValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label16"
+						"text": "Farming"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "FoodValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": "Food"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "HerbloreValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label22"
+						"text": "Herblore"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "HuntingValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label21"
+						"text": "Hunting"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "JewelleryValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label20"
+						"text": "Jewellery"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "MageValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label19"
+						"text": "Mage Armor, Mage Weapons"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "MeleeArmorValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label18"
+						"text": "Melee Armor"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "MeleeWeaponsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label17"
+						"text": "Melee Weapons"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "MiningValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label24"
+						"text": "Mining/Smithing"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "PotionsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label25"
+						"text": "Potions"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "PrayerValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label26"
+						"text": "Prayer"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "RangeArmorValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label27"
+						"text": "Range Armor"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "RangeWeaponsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label23"
+						"text": "Range Weapons"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "RunecraftingValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label28"
+						"text": "Runecrafting"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "RunesValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "SeedsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label29"
+						"text": "Runes, Teletabs"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label30"
+						"text": "Seeds"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "SummoningScrollsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label31"
+						"text": "Summoning scrolls"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "ToolsValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label33"
+						"text": "Tools"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "WoodcuttingValue"
+						"model": new javax.swing.DefaultComboBoxModel {
+							selectedItem: "2"
+							addElement( "2" )
+							addElement( "3" )
+							addElement( "4" )
+							addElement( "5" )
+							addElement( "6" )
+							addElement( "7" )
+							addElement( "8" )
+							addElement( "9" )
+						}
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label32"
+						"text": "Woodcutting"
+					} )
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JToggleButton" ) {
+				name: "toggleButton1"
+				"text": "Start"
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "toggleButton1ActionPerformed", true ) )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 320, 10 )
+			"size": new java.awt.Dimension( 290, 340 )
+		} )
+		add( new FormComponent( "javax.swing.JComboBox" ) {
+			name: "CostumesValue2"
+			"model": #DefaultComboBoxModel0
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 355 )
+			"size": new java.awt.Dimension( 47, 25 )
+		} )
+		add( new FormComponent( "javax.swing.JLabel" ) {
+			name: "label34"
+			"text": "Costumes"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 50, 360 )
+			"size": new java.awt.Dimension( 179, 16 )
+		} )
+	}
+}
